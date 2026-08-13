@@ -1,50 +1,58 @@
-# Hi, I'm Abolfazl Afkhami 👋
+# Abolfazl Afkhami
 
-I am an **AI & Software Engineer** specializing in production-grade autonomous multi-agent systems, real-time RAG architectures, and LLMOps workflows. My engineering focus is on building scalable, deterministic, and cost-optimized AI solutions that deliver measurable technical and business outcomes.
+**Production AI Engineer** specializing in **Speech AI (ASR)**, **Agentic Workflows**, and **High-Throughput RAG Pipelines**.
 
----
-
-### 🛠 Tech Stack & Core Skills
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![n8n](https://img.shields.io/badge/n8n-FF6D5A?style=for-the-badge&logo=n8n&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
-* **Languages & Core:** Python, Asynchronous Programming, REST APIs, OAuth 2.0, Docker, Linux (Ubuntu)
-* **AI, RAG & LLMOps:** PyTorch, Gemini 2.5, OpenRouter, Vector Databases, Whisper, Multi-Agent State Machines (n8n)
-* **Optimization & Data Engineering:** In-Memory Binary Processing (Base64/Data URLs), Dataset Curation, ASR Fine-Tuning
+I engineer production-grade AI infrastructure with a focus on system determinism, low-latency execution, and measurable pipeline trade-offs.
 
 ---
 
-### 🚀 Featured Production Projects
+### 🏛️ Core Specializations
 
-#### 🤖 Autonomous AI Content & Omnichannel Distribution Engine
-**Hakim** *(Apr 2026 – Jul 2026)*
-* **Architecture:** Engineered an asynchronous state machine built via n8n, utilizing Telegram as the frontend interface and n8n global static data for non-blocking API polling.
-* **LLM Pipeline:** Orchestrated foundation models via OpenRouter (Gemini 2.5 Flash & Wan 2.7) for localized B2B copywriting (Iraqi Arabic & Persian), programmatic product image transformations, and automated image-to-video teaser generation.
-* **Optimization:** Implemented in-memory binary processing (Base64/Data URLs) to bypass disk storage I/O overhead and significantly reduce end-to-end pipeline latency.
-* **Integrations & Resilience:** Built distribution automation across TikTok (custom OAuth 2.0 lifecycle & chunked video uploads), WhatsApp (rate-limited bulk broadcasting), and Novinhub API. Engineered fallback logic to gracefully downgrade to static mockups during upstream AI service timeouts.
-
-#### ⚡ Production RAG & CRM Pipeline
-**Alton** *(Jan 2026 – Feb 2026)*
-* **Production Deployment:** Deployed a live customer support chatbot on Alton's official website, syncing live inventory and capturing customer interactions directly into the CRM pipeline.
-* **Dynamic Sync:** Designed a 3-Hour Dynamic RAG Sync pipeline that updates the vector database every 3 hours with real-time clothing inventory, pricing, and FAQs to eliminate hallucinations.
-* **Cost Efficiency:** Leveraged Gemini 2.5 architecture to slash inference and token costs while maintaining support accuracy.
-* **Teamwork:** Co-engineered the end-to-end solution in collaboration with Mahdi Nateghi and Mohammad Bahrami.
-
-#### 🎙 Fine-Tuned Persian Whisper (Houshinoo)
-**University of Qom** *(Jul 2025 – Oct 2025)*
-* **Data Engineering:** Developed an ingestion framework to filter and denoise a ~53GB raw audio dataset into a curated 7.7GB training subset.
-* **Benchmarking & Training:** Evaluated pretrained baselines (WavLM, Wav2Vec2, Qwen, Whisper) and fine-tuned `Whisper-small` using PyTorch for Persian phonetics and conversational speech.
-* **Evaluation Metrics:** Achieved **27.435% Word Error Rate (WER)** and **25.342% Character Error Rate (CER)** on the evaluation dataset.
-* **Deployment:** Built and deployed an interactive real-time inference web application on Hugging Face Spaces.
+* **Speech AI & ASR Engineering:** End-to-end dataset processing pipelines (~53 GB to 7.7 GB clean subsets), PyTorch fine-tuning (`whisper-small`), dialect/phoneme adaptation, and Hugging Face deployment.
+* **Agentic Workflows & State Engines:** Non-blocking asynchronous orchestration built on n8n state memory, zero-disk I/O in-memory binary processing, and multi-model routing (OpenRouter).
+* **Production RAG Systems:** Dynamic vector synchronization (3-hour automated updates), sub-second execution context optimization, and decoupled asynchronous CRM/ERP analytics.
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 🚀 Featured Systems & Proof of Work
+
+#### 🎙️ 1. Fine-Tuned Persian Whisper (Houshinoo) — Speech AI / ASR
+> **Domain-adapted ASR model optimized for conversational Persian and regional dialects (Kurdish & Lori).**
+
+* **Data Pipeline:** Engineered a noise-stripping framework that isolated and curated **7.7 GB** of pristine vocal tracks from a **~53 GB** raw, unsegmented audio dataset.
+* **Fine-Tuning & Performance:** Fine-tuned `whisper-small` via PyTorch and Hugging Face `transformers`, achieving **27.435% WER** and **25.342% CER** on conversational evaluation sets.
+* **Deployment:** Live real-time inference web application deployed on Hugging Face Spaces.
+* 🔗 **[Try Live Model on Hugging Face Spaces](https://huggingface.co/spaces/Abolfazl27Aflhami88/Houshinoo)**
+
+#### 🤖 2. Autonomous AI Content & Omnichannel Distribution Engine — Agentic Workflows
+> **Non-blocking asynchronous state machine for automated B2B content generation and multi-channel publishing.**
+
+* **State Tracking & Memory:** Built an async state engine using n8n workflow static data (`$getWorkflowStaticData`), eliminating external database I/O bottlenecks.
+* **Zero-Disk I/O Binary Processing:** Encoded media streams directly into Base64/Data URL buffers in memory to maintain ultra-low processing latency.
+* **Multimodal Pipeline & Resilience:** Integrated Gemini 2.5 Flash (B2B copywriting) and Wan 2.7 (image-to-video) via OpenRouter, featuring automated circuit breakers for static mockup fallbacks during upstream timeouts.
+* **Distribution Gateway:** Automated distribution across global platforms (TikTok, WhatsApp, IG, FB, Telegram) and regional Iranian networks (Eitaa, Bale, Rubika) via intermediary API gateways.
+
+#### ⚡ 3. Production RAG & Dynamic Inventory Pipeline — AI Product Engineering
+> **Sub-second customer support RAG engine featuring automated dynamic vector synchronization.**
+
+* **Dynamic Context Hygiene:** Designed a 3-hour background synchronization pipeline that continuously updates vector embeddings with live stock/pricing context and purges out-of-stock items to eliminate inventory hallucinations.
+* **Inference Efficiency:** Optimized retrieval chunks and prompt structures using Gemini 2.5 Flash to achieve sub-second execution times for live user queries.
+* **Decoupled Analytics:** Built an asynchronous post-session processing pipeline that parses chat logs into structured lead profiles and intent metadata for direct CRM/ERP ingestion.
+
+---
+
+### 🛠️ Technical Stack & Tooling
+
+| Domain | Technologies & Frameworks |
+| :--- | :--- |
+| **Core & AI/ML** | Python, PyTorch, Hugging Face (`transformers`, `datasets`), Whisper, Librosa |
+| **LLMs & RAG** | Gemini 2.5 Flash, OpenRouter Gateway, Vector Databases, Context Optimization |
+| **Orchestration & DevOps** | n8n State Machines, Docker, Linux (Ubuntu), Asynchronous Programming, REST APIs |
+| **Media & Pipelines** | In-Memory Binary Streams (Base64/Data URLs), FFmpeg, Webhook Architectures |
+
+---
+
+### 📊 GitHub Activity
 
 <div align="center">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Abolfazl-Afkhami&show_icons=true&theme=dark&count_private=true&include_all_commits=true" alt="Abolfazl's GitHub Stats" width="49%" />
@@ -53,9 +61,9 @@ I am an **AI & Software Engineer** specializing in production-grade autonomous m
 
 ---
 
-### 📬 Connect & Collaborate
+### 📬 Contact & Links
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abolfazl-afkhami)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/spaces/Abolfazl27Aflhami88/Houshinoo)
 [![Telegram Channel](https://img.shields.io/badge/Telegram_Channel-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Afkhami_AI)
 [![Telegram Direct](https://img.shields.io/badge/Telegram_Direct-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Office_Afkhami)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abolfazl-Afkhami)
