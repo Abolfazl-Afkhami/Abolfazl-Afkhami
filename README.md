@@ -55,8 +55,7 @@ I engineer production-grade AI infrastructure with a focus on system determinism
 ### 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats-git-masterrstacruz-anuraghazras-projects.vercel.app/api?username=Abolfazl-Afkhami&show_icons=true&theme=dark&count_private=true&include_all_commits=true" alt="Abolfazl's GitHub Stats" width="49%" />
-  <img src="https://github-readme-stats-git-masterrstacruz-anuraghazras-projects.vercel.app/api/top-langs/?username=Abolfazl-Afkhami&layout=compact&theme=dark&hide_border=false" alt="Top Languages" width="47%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abolfazl-Afkhami&theme=react-dark" alt="Abolfazl's GitHub Activity Graph" width="100%" />
 </div>
 
 ---
