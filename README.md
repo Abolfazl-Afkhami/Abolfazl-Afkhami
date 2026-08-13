@@ -64,6 +64,6 @@ I engineer production-grade AI infrastructure with a focus on system determinism
 ### 📬 Contact & Links
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abolfazl-afkhami)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/spaces/Abolfazl27Aflhami88/Houshinoo)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/spaces/Abolfazl27Aflhami88)
 [![Telegram Channel](https://img.shields.io/badge/Telegram_Channel-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Afkhami_AI)
 [![Telegram Direct](https://img.shields.io/badge/Telegram_Direct-229ED9?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Office_Afkhami)
