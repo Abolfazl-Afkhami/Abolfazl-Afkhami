@@ -55,10 +55,9 @@ I engineer production-grade AI infrastructure with a focus on system determinism
 ### 📊 GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Abolfazl-Afkhami&show_icons=true&theme=dark&count_private=true&include_all_commits=true" alt="Abolfazl's GitHub Stats" width="49%" />
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Abolfazl-Afkhami&layout=compact&theme=dark&hide_border=false" alt="Top Languages" width="47%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Abolfazl-Afkhami&show_icons=true&theme=dark&count_private=true&include_all_commits=true" alt="Abolfazl's GitHub Stats" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abolfazl-Afkhami&layout=compact&theme=dark&hide_border=false" alt="Top Languages" width="47%" />
 </div>
-
 ---
 
 ### 📬 Contact & Links
